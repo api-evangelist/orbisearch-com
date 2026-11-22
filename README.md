@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-OrbiSearch is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://orbisearch.com
+OrbiSearch provides real‑time email verification and enrichment services, focusing on catch‑all domain resolution, LinkedIn email finding, and company enrichment. Their API enables single‑email checks, bulk validation, and detailed status reporting, with GDPR and CCPA compliance. Pricing is pay‑as‑you‑go with free credits on sign‑up, and the platform offers extensive documentation, SDKs, and integration guides for developers.
+
+**Areas:** Email Validation · Email Enrichment · B2B Data · API · Data Platforms
+
+## OrbiSearch on APIs.io
+
+Everything profiled for OrbiSearch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/orbisearch-com/](https://apis.io/providers/orbisearch-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [OrbiSearch Public API v1 API](https://apis.io/apis/orbisearch-com/orbisearch-com-public-api-v1-api/) — The Public API v1 API from OrbiSearch — 14 operation(s) for public api v1.
+- [OrbiSearch Unlimited Plans API](https://apis.io/apis/orbisearch-com/orbisearch-com-unlimited-plans-api/) — The Unlimited Plans API from OrbiSearch — 5 operation(s) for unlimited plans.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [OrbiSearch Agentic Access](https://apis.io/agentic-access/orbisearch-com/orbisearch-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BulkJobResultsResponse](https://apis.io/schemas/orbisearch-com/orbisearch-com-bulk-job-results-response/)
+- [CompanyBulkStatusResponse](https://apis.io/schemas/orbisearch-com/orbisearch-com-company-bulk-status-response/)
+- [CompanyEnrichmentResponse](https://apis.io/schemas/orbisearch-com/orbisearch-com-company-enrichment-response/)
+- [EmailLookupResponse](https://apis.io/schemas/orbisearch-com/orbisearch-com-email-lookup-response/)
+- [EmailVerificationResponse](https://apis.io/schemas/orbisearch-com/orbisearch-com-email-verification-response/)
+- [UnlimitedUsageResponse](https://apis.io/schemas/orbisearch-com/orbisearch-com-unlimited-usage-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Orbisearch Com Context](https://apis.io/jsonld/orbisearch-com/orbisearch-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [OrbiSearch API Rules](https://apis.io/rules/orbisearch-com/orbisearch-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [OrbiSearch Authentication](https://apis.io/security/orbisearch-com/orbisearch-com-authentication/)
+- [OrbiSearch Domain Security](https://apis.io/security/orbisearch-com/orbisearch-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://orbisearch.com)
+- [Documentation](https://orbisearch.com/docs/introduction)
+- [API reference](https://orbisearch.com/docs/api-reference)
+- [Pricing](https://orbisearch.com/pricing)
+- [Sign up](https://orbisearch.com/sign-up)
+- [Blog](https://orbisearch.com/blog)
+- [Terms of service](https://orbisearch.com/terms)
+- [Privacy policy](https://orbisearch.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.7** — developing · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 66.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 36.2 |
+
+**Agent readiness 46.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/orbisearch-com/](https://apis.io/providers/orbisearch-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OrbiSearch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/orbisearch-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
